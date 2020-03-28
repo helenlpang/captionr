@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-express')
+const { gql } = require("apollo-server-express");
 
 module.exports = gql`
   type Query {
@@ -12,16 +12,17 @@ module.exports = gql`
   type Mutation {
     login(username: String!, password: String!): AuthReturn!
     register(username: String!, password: String!): AuthReturn!
-    submit(input: CaptionInput! ): Caption!
+    submit(input: CaptionInput!): Caption!
     vote(caption_id: ID!): String!
   }
 
   type Caption {
     id: ID!
+    user_id: ID!
     image: Image!
     user: User!
-	  caption: String!
-	  upvotes: Int!
+    caption: String!
+    upvotes: Int!
   }
 
   type User {
@@ -40,10 +41,11 @@ module.exports = gql`
     id: ID!
     captions: [Caption]!
     url: String!
+    total_upvotes: Int
   }
 
   input CaptionInput {
-    caption: String!, 
+    caption: String!
     image_id: ID!
   }
-`
+`;
