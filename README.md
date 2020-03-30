@@ -1,6 +1,7 @@
 # captionr
-Full stack picture captioning social media platform
+Full stack picture captioning social media platform.
 
-Team: Helen Pang, Aaron Sun, Charles Onesti [Harvard Student Agencies DEV Winter Bootcamp]
+Team: Helen Pang, Aaron Sun, Charles Onesti 
+[Harvard Student Agencies DEV Winter Bootcamp]
 
-Forked to augment past work
+Forked to further improve the application.
