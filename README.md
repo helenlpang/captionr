@@ -1,5 +1,5 @@
 # captionr
-Full stack picture captioning media platform. Created for Harvard Student Agencies DEV Winter Bootcamp.
+Full stack picture captioning social media platform. Created for Harvard Student Agencies DEV Winter Bootcamp.
 
 Team: Helen Pang, Aaron Sun, Charles Onesti 
 
